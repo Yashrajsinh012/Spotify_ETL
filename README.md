@@ -13,6 +13,7 @@ making it queryable using AWS Athena for analysis.
 The pipeline follows the ETL (Extract, Transform, Load) process, as illustrated below:
 
 **ETL Architecture Diagram**
+https://github.com/Yashrajsinh012/Spotify_ETL/blob/main/Architecture_Diagram.drawio.png
 
 ---
 
