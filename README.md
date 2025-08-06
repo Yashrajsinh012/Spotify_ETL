@@ -12,8 +12,8 @@ making it queryable using AWS Athena for analysis.
 ## Architecture Overview  
 The pipeline follows the ETL (Extract, Transform, Load) process, as illustrated below:
 
-**ETL Architecture Diagram**
-https://github.com/Yashrajsinh012/Spotify_ETL/blob/main/Architecture_Diagram.drawio.png
+![ETL Architecture Diagram](https://raw.githubusercontent.com/Yashrajsinh012/Spotify_ETL/main/Architecture_Diagram.drawio.png)
+
 
 ---
 
