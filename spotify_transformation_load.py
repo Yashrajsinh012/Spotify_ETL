@@ -50,7 +50,7 @@ def songs(data):
 def lambda_handler(event, context):
     s3 = boto3.client('s3')
 
-    Bucket = 'spotify-etl-project-anish-gogineni'
+    Bucket = 'spotify-etl-project-yashraj'
     Key = 'raw_data/to_processed'
 
     spotify_data = []
@@ -110,4 +110,5 @@ def lambda_handler(event, context):
         }
         s3_resource.meta.client.copy(copy_source, Bucket, 'raw_data/processed/' + key.split('/')[-1])
         s3_resource.Object(Bucket, key).delete()
+
 
